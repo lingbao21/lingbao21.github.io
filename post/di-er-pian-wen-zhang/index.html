@@ -1,0 +1,527 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>python基础语法 | 爱玲宝</title>
+<link rel="shortcut icon" href="https://lingbao21.github.io/favicon.ico?v=1672663420855">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://lingbao21.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="python基础语法 | 爱玲宝 - Atom Feed" href="https://lingbao21.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="2.python基础语法
+2.1 字面量
+字面量是程序中固定的值
+常见的字面量
+
+
+整型int：
+
+
+浮点型float：
+
+
+字符串string
+
+
+print输出字面量
+print(123)
+print(13.14)
+print(&quo..." />
+    <meta name="keywords" content="python" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://lingbao21.github.io">
+  <img class="avatar" src="https://lingbao21.github.io/images/avatar.png?v=1672663420855" alt="">
+  </a>
+  <h1 class="site-title">
+    爱玲宝
+  </h1>
+  <p class="site-description">
+    学习使我快乐
+  </p>
+  <div class="menu-container">
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              python基础语法
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-12-02
+              </span>
+              <span>
+                6 min read
+              </span>
+              
+                <a href="https://lingbao21.github.io/tag/C-iXQOxJL/" class="post-tag">
+                  # python
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="2python基础语法">2.python基础语法</h2>
+<h3 id="21-字面量">2.1 字面量</h3>
+<p>字面量是程序中固定的值</p>
+<p>常见的字面量</p>
+<ul>
+<li>
+<p>整型int：</p>
+</li>
+<li>
+<p>浮点型float：</p>
+</li>
+<li>
+<p>字符串string</p>
+</li>
+</ul>
+<p>print输出字面量</p>
+<pre><code class="language-python">print(123)
+print(13.14)
+print(&quot;夜幕下的马拉卡纳&quot;)
+print('123  234')
+
+</code></pre>
+<h3 id="22-注释">2.2 注释</h3>
+<p>注释的目的是对程序进行说明，不会被执行</p>
+<ul>
+<li>单行注释：# 注释内容</li>
+<li>多行注释：&quot;&quot;&quot;注释内容&quot;&quot;&quot;</li>
+</ul>
+<pre><code class="language-python">&quot;&quot;&quot;
+这是字面量的输出方法
+这是注释的内容
+&quot;&quot;&quot;
+print(123) # 这是int
+print(13.14) # 这是float
+print(&quot;大帅比绳军&quot;) # 这是string
+
+</code></pre>
+<p>思考：</p>
+<pre><code class="language-python">&quot;&quot;&quot;
+这个程序的输出内容是什么
+&quot;&quot;&quot;
+print(&quot;绳军&quot;) # print(&quot;大帅逼&quot;)
+
+</code></pre>
+<h3 id="23-变量">2.3 变量</h3>
+<p>变量就是程序在使用时，记录数据用的</p>
+<p>变量的格式为：变量名 = 变量值</p>
+<p>变量的特征：变量的值是可以改变的</p>
+<pre><code class="language-python">&quot;&quot;&quot;
+演示：
+变量的用法：
+&quot;&quot;&quot;
+# 定义一个变量来表示钱包的余额
+money = 50
+# 利用print语句，输出钱包余额
+print(&quot;钱包原本余额为：&quot;,money,&quot;元&quot;)
+# 买雪糕花了十元，计算剩下的余额
+money = money  - 10
+# 输出剩下的钱
+print(&quot;买雪糕花了10元，钱包余额为：&quot;,money,&quot;元&quot;)
+
+</code></pre>
+<p><strong>补充内容</strong></p>
+<ul>
+<li><u><em><strong>变量可以是int,float,str等，在输出变量时，不需要加双引号强调是字符串</strong></em></u></li>
+<li><em><strong>定义变量为字符串时，字符串要加引号</strong></em></li>
+</ul>
+<ul>
+<li>
+<p>print如何输出多份内容：</p>
+<pre><code class="language-python">print(内容1,内容2,内容3, ... )
+
+</code></pre>
+</li>
+</ul>
+<ul>
+<li>
+<p>python的简单运算</p>
+<pre><code>加（+），减（-），乘（*），除（/）
+</code></pre>
+</li>
+</ul>
+<p>练习题</p>
+<pre><code class="language-python">&quot;&quot;&quot;
+练习题
+&quot;&quot;&quot;
+# 定义一个变量：钱包余额money，初始值为50元
+money = 50
+print(&quot;钱包初始余额为：&quot;,money,&quot;元&quot;)
+# 买雪糕花费：10元，买巧克力花费：5元
+money = money - 10
+print(&quot;买雪糕花费：10元&quot;)
+money = money - 5
+print(&quot;买巧克力花费：5元&quot;)
+# 输出钱包最终余额： 元
+print(&quot;钱包最终余额为&quot;,money,&quot;元&quot;)
+
+</code></pre>
+<h3 id="24-数据类型">2.4 数据类型</h3>
+<p>初学者常见的数据类型</p>
+<ul>
+<li>整型int</li>
+<li>浮点型float</li>
+<li>字符串</li>
+</ul>
+<p>利用type()来查看数据类型，既可以查看字面量的数据类型，又可以查看变量的数据类型</p>
+<pre><code class="language-python">&quot;&quot;&quot;
+数据类型
+利用tyoe()查看数据类型
+&quot;&quot;&quot;
+#查看字面量的数据类型
+# 方式一：
+print(type(123))
+print(type(123.456))
+print(type(&quot;我是大帅逼&quot;))
+
+# 方式二：
+int_type = type(123)
+print(int_type)
+float_type = type(123.456)
+print(float_type)
+str_type = type(&quot;我是大帅比&quot;)
+print(str_type)
+
+
+#查看变量的数据类型
+# 方式一：
+int_type = 123
+print(type(int_type))
+
+# 方式二：
+f = 123.456
+float_type = type(f)
+print(float_type)
+
+</code></pre>
+<h3 id="25-数据类型转换">2.5 数据类型转换</h3>
+<p>数据类型之间，在特定的场景之间是可以相互转换的，如数字与字符串之间</p>
+<p>数据转换用途广泛且有必要</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">函数(x)</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">int(x)</td>
+<td style="text-align:center">将x转换成整数</td>
+</tr>
+<tr>
+<td style="text-align:center">float(x)</td>
+<td style="text-align:center">将x转换成浮点数</td>
+</tr>
+<tr>
+<td style="text-align:center">str(x)</td>
+<td style="text-align:center">将x转换成字符串</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-python">&quot;&quot;&quot;
+字符串转换
+&quot;&quot;&quot;
+
+# 整数转字符串
+num1 = str(1234)
+print(type(num1),num1)
+
+# 浮点转字符串
+print(type(str(213.456)),str(213.456)) # 通过中间变量的方式，可以使程序更简洁
+
+# 字符串转整型
+num2 = int(&quot;1234&quot;)
+print(type(num2),num2)
+
+&quot;&quot;&quot;
+错误示例：
+num3 = int(&quot;大帅比&quot;)
+print(type(num3),num3)
+&quot;&quot;&quot;
+
+# 整型转浮点型
+num4 = float(1234)
+print(type(num4),num4)
+
+# 浮点型转整型
+num5 = int(123.456)
+print(type(num5),num5) # 浮点型转整型会失去精度，即抹掉小数点后面的数，不是四舍五入
+
+</code></pre>
+<h3 id="26-标识符">2.6 标识符</h3>
+<p>标识符就是用户在编程时所使用的一系列的名字，用于给变量，类，方法等命名</p>
+<ul>
+<li>
+<p><em><strong>标识符只允许出现<u>英文，中文（不推荐），数字，下划线</u>四类元素，其他内容均不被允许</strong></em></p>
+</li>
+<li>
+<p>数字不能作为开头</p>
+</li>
+<li>
+<p>对大小写敏感</p>
+</li>
+<li>
+<p>不能使用关键字</p>
+</li>
+</ul>
+<p>变量的命名规范：</p>
+<ul>
+<li>见名知义</li>
+<li>下划线命名法</li>
+<li>英文字母全小写</li>
+</ul>
+<h3 id="27运算符">2.7运算符</h3>
+<h4 id="1算数运算符">1.算数运算符</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">+</td>
+<td style="text-align:center">加</td>
+</tr>
+<tr>
+<td style="text-align:center">-</td>
+<td style="text-align:center">减</td>
+</tr>
+<tr>
+<td style="text-align:center">*</td>
+<td style="text-align:center">乘</td>
+</tr>
+<tr>
+<td style="text-align:center">/</td>
+<td style="text-align:center">除</td>
+</tr>
+<tr>
+<td style="text-align:center">//</td>
+<td style="text-align:center">取整除（返回商的整数部分）</td>
+</tr>
+<tr>
+<td style="text-align:center">%</td>
+<td style="text-align:center">取余</td>
+</tr>
+<tr>
+<td style="text-align:center">**</td>
+<td style="text-align:center">指数</td>
+</tr>
+</tbody>
+</table>
+<h4 id="2赋值运算符">2.赋值运算符</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">=</td>
+<td style="text-align:center">赋值（右边的值赋给左边）</td>
+</tr>
+</tbody>
+</table>
+<h4 id="3复合运算符">3.复合运算符</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">运算符</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">+=</td>
+<td style="text-align:center">加法赋值运算符</td>
+<td style="text-align:center">c+=a,c=c+a</td>
+</tr>
+<tr>
+<td style="text-align:center">-=</td>
+<td style="text-align:center">减法赋值运算符</td>
+<td style="text-align:center">c-=a,c=c-a</td>
+</tr>
+<tr>
+<td style="text-align:center">*=</td>
+<td style="text-align:center">乘法赋值运算符</td>
+<td style="text-align:center">c*=a,c=c*a</td>
+</tr>
+<tr>
+<td style="text-align:center">/=</td>
+<td style="text-align:center">除法赋值运算符</td>
+<td style="text-align:center">c/=a,c=c/a</td>
+</tr>
+<tr>
+<td style="text-align:center">%=</td>
+<td style="text-align:center">取模赋值运算符</td>
+<td style="text-align:center">c%=a,c=c%a</td>
+</tr>
+<tr>
+<td style="text-align:center">**=</td>
+<td style="text-align:center">幂赋值运算符</td>
+<td style="text-align:center">c**=a,c=c**a</td>
+</tr>
+<tr>
+<td style="text-align:center">//=</td>
+<td style="text-align:center">取整赋值运算符</td>
+<td style="text-align:center">c//=a,c=c//a</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-python">
+</code></pre>
+<h3 id="28-字符串的扩展">2.8 字符串的扩展</h3>
+<h4 id="1字符串的三种定义方式">1.字符串的三种定义方式</h4>
+<ul>
+<li>单引号方式</li>
+<li>双引号方式</li>
+<li>三引号方式</li>
+</ul>
+<p><u><em><strong>利用转义字符将引号转换为普通字符</strong></em></u></p>
+<pre><code class="language-python">print('let\'s go')
+
+</code></pre>
+<h4 id="2字符串的拼接">2.字符串的拼接</h4>
+<p>只能字符串与字符串之间的拼接(字面量与变量之间，字面量之间，变量之间)</p>
+<pre><code class="language-python">name = &quot;绳军&quot;
+print(&quot;我的名字是：&quot; + name + '，我是大帅比')
+
+</code></pre>
+<h4 id="3字符串的格式化">3.字符串的格式化</h4>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#2python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95">2.python基础语法</a>
+<ul>
+<li><a href="#21-%E5%AD%97%E9%9D%A2%E9%87%8F">2.1 字面量</a></li>
+<li><a href="#22-%E6%B3%A8%E9%87%8A">2.2 注释</a></li>
+<li><a href="#23-%E5%8F%98%E9%87%8F">2.3 变量</a></li>
+<li><a href="#24-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">2.4 数据类型</a></li>
+<li><a href="#25-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2">2.5 数据类型转换</a></li>
+<li><a href="#26-%E6%A0%87%E8%AF%86%E7%AC%A6">2.6 标识符</a></li>
+<li><a href="#27%E8%BF%90%E7%AE%97%E7%AC%A6">2.7运算符</a>
+<ul>
+<li><a href="#1%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97%E7%AC%A6">1.算数运算符</a></li>
+<li><a href="#2%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6">2.赋值运算符</a></li>
+<li><a href="#3%E5%A4%8D%E5%90%88%E8%BF%90%E7%AE%97%E7%AC%A6">3.复合运算符</a></li>
+</ul>
+</li>
+<li><a href="#28-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%89%A9%E5%B1%95">2.8 字符串的扩展</a>
+<ul>
+<li><a href="#1%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E4%B8%89%E7%A7%8D%E5%AE%9A%E4%B9%89%E6%96%B9%E5%BC%8F">1.字符串的三种定义方式</a></li>
+<li><a href="#2%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8B%BC%E6%8E%A5">2.字符串的拼接</a></li>
+<li><a href="#3%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A0%BC%E5%BC%8F%E5%8C%96">3.字符串的格式化</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://lingbao21.github.io/post/di-yi-pian-wen-zhang/">
+              <h3 class="post-title">
+                认识python
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  
+  <a class="rss" href="https://lingbao21.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
